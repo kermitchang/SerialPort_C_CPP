@@ -1,0 +1,2 @@
+1. There are two file SerialPort.h and SerialPort.cpp
+2. Testing on visual studio 2019
