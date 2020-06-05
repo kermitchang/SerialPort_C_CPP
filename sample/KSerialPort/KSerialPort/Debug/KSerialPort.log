@@ -1,0 +1,6 @@
+﻿  KSerialPort.cpp
+  SerialPort.cpp
+E:\Program\Code\C\SerialPort\KSerialPort\KSerialPort\SerialPort.cpp(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 巨集重複定義
+E:\Program\Code\C\SerialPort\KSerialPort\KSerialPort\SerialPort.cpp : message : 請參閱 '_CRT_SECURE_NO_WARNINGS' 之前的定義
+  正在產生程式碼...
+  KSerialPort.vcxproj -> E:\Program\Code\C\SerialPort\KSerialPort\Debug\KSerialPort.exe
