@@ -26,9 +26,10 @@ cmake .. \
 make -j$(nproc)
 sudo make install
 
-
-
 rm -rf build   # 删除旧的构建文件夹
 mkdir build
 cd build
+
+#######
+cmake .. -DBUILD_EXAMPLES=true -DOpenGL_GL_PREFERENCE=LEGACY -DOPENGL_gl_LIBRARY=/usr/lib/aarch64-linux-gnu/libGL.so -DOPENGL_glu_LIBRARY=/usr/lib/aarch64-linux-gnu/libGLU.so -DOPENGL_INCLUDE_DIR=/usr/include/GL
 
